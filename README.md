@@ -11,7 +11,7 @@ a city full of units to dispatch, and a radio that never stops talking. <em>Ever
 
 <p>
   <a href="https://abhinav-prabhakar.github.io/Cockpit/"><img src="https://img.shields.io/badge/ENGAGE_CONSOLE-ff3d2e?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=02070b" alt="Open the live console"></a>
-  <a href="docs/media/tour.mp4"><img src="https://img.shields.io/badge/WATCH_THE_32S_TOUR-ffb52e?style=for-the-badge&logo=ffmpeg&logoColor=02070b&labelColor=02070b" alt="Watch the 32 second tour"></a>
+  <a href="docs/media/tour.mp4"><img src="https://img.shields.io/badge/WATCH_THE_19S_TOUR-ffb52e?style=for-the-badge&logo=ffmpeg&logoColor=02070b&labelColor=02070b" alt="Watch the 19 second tour"></a>
   <a href="https://github.com/Abhinav-Prabhakar/Cockpit/actions/workflows/pages.yml"><img src="https://img.shields.io/github/actions/workflow/status/Abhinav-Prabhakar/Cockpit/pages.yml?branch=main&style=for-the-badge&label=DEPLOY&labelColor=02070b&color=3dfc9a" alt="Deploy status"></a>
   <a href="https://github.com/Abhinav-Prabhakar/Cockpit/stargazers"><img src="https://img.shields.io/github/stars/Abhinav-Prabhakar/Cockpit?style=for-the-badge&label=STARS&labelColor=02070b&color=46e3ff&logo=github&logoColor=white" alt="GitHub stars"></a>
 </p>
@@ -61,30 +61,19 @@ You are the dispatcher on console 01. It is late, the bay lights are low, and th
 
 <div align="center">
   <a href="docs/media/tour.mp4">
-    <img src="docs/media/tour.gif" width="900" alt="Animated tour: the camera flies from the seat to the tactical map, fleet status, CAD queue, both MFDs, the main panel and the response deck, then returns to the seat">
+    <img src="docs/media/tour.gif" width="900" alt="Animated tour: the title card, the screens booting up one by one, then close-ups of the tactical map and the thermal MFD">
   </a>
   <br>
-  <sub>A 32-second tour. <a href="docs/media/tour.mp4">Watch the full-quality MP4</a>.</sub>
+  <sub>A 19-second tour, from power-on to the thermal camera. <a href="docs/media/tour.mp4">Watch the full-quality MP4</a>.</sub>
 </div>
 
 <br>
 
-It started from this mood board. The build is the right-hand side of the comparison:
+Press <kbd>C</kbd> for cinema bars and the console becomes a 2.39:1 widescreen shot, with bloom, depth of field and real-time reflections doing the work.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>The reference</b><br>
-      <sub>Concept art that set the tone: red alert glow, amber LED ticker, cold blue screens.</sub><br><br>
-      <img src="docs/media/reference.jpg" alt="Concept art of a fire command console" width="100%">
-    </td>
-    <td width="50%" valign="top">
-      <b>The build</b><br>
-      <sub>The same console, live in WebGL, with <kbd>C</kbd> cinema bars on: bloom, depth of field and real-time reflections.</sub><br><br>
-      <img src="docs/media/hero.jpg" alt="The running console in 2.39:1 cinema mode" width="100%">
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="docs/media/hero.jpg" width="1000" alt="The running console in 2.39:1 cinema mode">
+</div>
 
 <br>
 
