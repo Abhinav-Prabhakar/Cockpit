@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fire Command Cockpit</title>
+<meta name="description" content="A photoreal, real-time 3D fire dispatch console in the browser: live tactical map, fleet status, thermal cameras and procedural radio chatter. Three.js, no build step.">
+<meta property="og:title" content="Fire Command Cockpit">
+<meta property="og:description" content="A photoreal, real-time 3D fire dispatch console in the browser. Every screen is live.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://abhinav-prabhakar.github.io/Cockpit/docs/media/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#02070b">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&family=Caveat:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+  <canvas id="gl"></canvas>
+
+  <div id="letterbox"><div class="bar top"></div><div class="bar bottom"></div></div>
+
+  <div id="hud">
+    <div class="hud-tl">
+      <div class="hud-title">METRO FIRE · CENTRAL COMMAND</div>
+      <div class="hud-sub">CONSOLE 01 · <span id="hud-clock">--:--:--</span> · <span id="hud-view">SEAT</span></div>
+    </div>
+    <div class="hud-bottom">
+      <span><b>WASD</b> move</span>
+      <span><b>Q/E</b> down/up</span>
+      <span><b>DRAG / ARROWS</b> look</span>
+      <span><b>SHIFT</b> faster</span>
+      <span><b>SCROLL</b> lean</span>
+      <span><b>[ ]</b> room light</span>
+      <span><b>SHIFT+[ ]</b> backlight</span>
+      <span><b>\</b> reset light</span>
+      <span><b>DBL-CLICK</b> screen to focus</span>
+      <span><b>1–9</b> views</span>
+      <span><b>ESC</b> seat</span>
+      <span><b>C</b> cinema bars</span>
+      <span><b>M</b> mute</span>
+      <span><b>H</b> hide HUD</span>
+    </div>
+  </div>
+
+  <div id="tip"></div>
+  <div id="toast"></div>
+
+  <div id="intro">
+    <div class="intro-grain"></div>
+    <div class="intro-inner">
+      <div class="intro-badge">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M50 4 L61 30 L88 22 L74 47 L96 60 L68 66 L72 95 L50 77 L28 95 L32 66 L4 60 L26 47 L12 22 L39 30 Z" fill="none" stroke="currentColor" stroke-width="3"/>
+          <circle cx="50" cy="52" r="14" fill="none" stroke="currentColor" stroke-width="3"/>
+          <path d="M50 40 C56 47 58 52 54 58 C53 54 51 53 50 52 C49 55 46 56 46 60 C42 54 44 47 50 40 Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="intro-kicker">METRO FIRE DEPARTMENT · EMERGENCY OPERATIONS</div>
+      <h1>FIRE COMMAND<br><span>COCKPIT</span></h1>
+      <div class="intro-line"></div>
+      <div id="progress">INITIALIZING SYSTEMS…</div>
+      <button id="engage" disabled>ENGAGE CONSOLE</button>
+      <div class="intro-foot">Audio on · best in fullscreen (F)</div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
