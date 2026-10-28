@@ -32,7 +32,7 @@ a city full of units to dispatch, and a radio that never stops talking. <em>Ever
 </p>
 
 <a href="https://abhinav-prabhakar.github.io/Cockpit/">
-  <img src="docs/media/seat.jpg" width="1000" alt="The Metro Fire central command console in a dim apparatus bay: fleet status, a tactical map with a structure fire, a personnel board, weather and comms, gauge clusters and a response deck with arcade buttons and a joystick">
+  <img src="docs/media/seat.jpg?v=2" width="1000" alt="The Metro Fire central command console in a dim apparatus bay: fleet status, a tactical map with a structure fire, a personnel board, weather and comms, gauge clusters and a response deck with arcade buttons and a joystick">
 </a>
 
 <sub><strong>This is a screenshot of the actual app, not a render.</strong> Every screen, gauge and light in it is live.</sub>
@@ -61,7 +61,7 @@ You are the dispatcher on console 01. It is late, the bay lights are low, and th
 
 <div align="center">
   <a href="docs/media/tour.mp4">
-    <img src="docs/media/tour.gif" width="900" alt="Animated tour: the screens booting up one by one, then close-ups of the tactical map and the thermal MFD">
+    <img src="docs/media/tour.gif?v=2" width="900" alt="Animated tour: the screens booting up one by one, then close-ups of the tactical map and the thermal MFD">
   </a>
   <br>
   <sub>A 17-second tour, from the screens powering up to the thermal camera. <a href="docs/media/tour.mp4">Watch the full-quality MP4</a>.</sub>
